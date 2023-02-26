@@ -1,0 +1,82 @@
+.materialsmother{
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.materials{
+    display: flex;
+    flex-wrap: wrap;
+    width: 88%;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-around;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+    
+    
+}
+.materialcard{
+    border: none !important;
+    margin: 10px !important;
+}
+.headers{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+
+}
+.headers span{
+    color: green;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.headers h1{
+    font-size: 3rem;
+    font-weight: 700;
+    width: 50%;
+    margin: auto;
+}
+.icon{
+    width: 40px !important;
+    height: 40px !important;
+    margin: 15px auto !important;
+}
+h5{
+    color: #757575;
+    font-size: 27px;
+    font-family:"lora-regular", serif;
+    font-weight: 700;
+}
+p{
+    color: #757575;
+    line-height: 1.5;
+    font-family: "lora-regular",serif;
+    font-size: 17px;
+}
+@media screen and (max-width:700px) {
+    .materials{
+        width: 80%;
+        text-align: center;
+    }
+    .materialcard{
+        max-width: 100% !important;
+    }
+    .headers span{
+        font-size: 1rem !important;
+    }
+    h1{
+        font-size: 2rem !important;
+
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:1000px) {
+    .materials{
+        width: 100%;
+        padding-bottom: 100px;
+        box-sizing: border-box;
+        
+    }
+    h1{
+        width: 100% !important;
+    }
+}

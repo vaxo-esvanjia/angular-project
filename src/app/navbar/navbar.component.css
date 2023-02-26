@@ -1,0 +1,148 @@
+.logomother{
+    margin-left: 50px;
+    
+    width: 80px;
+    height: 30px;
+
+}
+.logo{
+    
+    width: 100%;
+    height: 100%;
+}
+.burgermenu{
+    width: 42px;
+    height: 42px;
+    display: flex;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+    margin-left: 10px;
+}
+.burgermenu span{
+    width: 50%;
+    height: 2px;
+    background-color: white;
+    
+}
+.menu{
+    position: fixed;
+    padding-left: 10px;
+    cursor: pointer;
+    right: 50px;
+    background-color: black;
+    top: 20px;
+    
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    z-index: 500;
+    align-items: center;
+}
+.menutxt{
+    color: #39b54a;
+    font-weight: 700;
+    
+    font-size: 13px;
+}
+.menu:hover .menutxt{
+    color: white;
+    transition: 0.4s;
+}
+.rightnavbarmother{
+    width: 400px;
+    height: 200vh;
+    right: 0;
+    top: 0;
+    margin-right: -410px;
+    position: fixed;
+    transition: 0.4;
+    background-color: rgb(155, 20, 20);
+    
+}
+.navrightopen{
+    padding-top: 40px;
+    z-index: 600;
+    box-sizing: border-box;
+    margin-right: 0px;
+    transition: 0.4s;
+    background-color: rgb(0, 0, 0);
+}
+.navigation{
+    margin-top: 30px;
+    width: 70%;
+    height: 50px;
+    display: flex;
+    margin: auto;
+    
+    justify-content: space-between;
+    color: white;
+    z-index: 210;
+    
+}
+.c {
+    margin-top: 30px;
+    margin-left: 30px;
+    
+
+}
+li a{
+    color: white;
+    font-size: 16px;
+}
+p{
+    margin-top: 40px;
+    width: 80%;
+    margin-left: 10px;
+    color: #ffffff40;
+}
+.pointer{
+    cursor: pointer;
+}
+.collapse:not(.show){
+    display: block;
+}
+.icons{
+    width: 80%;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 40px;
+    color: #ffffff40;
+}
+.vol{
+    color: #ffffff80;
+}
+.vol:hover{
+    color: white;
+    transition: 0.3s;
+}
+.icon:hover{
+    color: white;
+    transition: 0.3s;
+}
+.icon{
+    width: 17px;
+    height: 17px;
+    margin: 8px;
+    cursor: pointer;
+}
+@media screen and (max-width:800px) {
+    .rightnavbarmother{
+        width: 300px;
+    }
+    .menutxt{
+        display: none;
+    }
+    .burgermenu{
+        margin: 0;
+    }
+}
+@media screen and (max-width:400px) {
+    .rightnavbarmother{
+        width: 100%;
+    }
+}

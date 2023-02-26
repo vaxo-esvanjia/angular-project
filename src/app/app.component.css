@@ -1,0 +1,22 @@
+
+.scroll1{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    cursor: pointer;
+}
+.scroll1:hover path{
+    fill: white !important;
+    transition: 0.3s;
+}
+.scroll2{
+    display: none;
+    transition: 0.5s;
+}

@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+.footercontent{
+    
+    display: flex;
+    width: 75%;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.footercard img{
+    width: 90px;
+    height: 30px;
+}
+.footercard {
+    width: 45%;
+    margin: 20px;
+}
+.m {
+    margin-top: 15px;
+}
+.btx {
+    width: 140px;
+    height: 54px;
+    background: #39b54a;
+    border-color: #39b54a;
+    border: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 13px;
+    letter-spacing: 0.2rem;
+    font-family: "montserrat-medium", sans-serif;
+    
+}
+.email{
+    
+    height: 54px;
+    background: black;
+    outline: none;
+    border: none;
+    background-position: 15px 20px ;
+    background-repeat: no-repeat;
+    background-size: 25px;
+    padding-left: 50px;
+    color: rgb(187, 187, 187);
+    font-size: 17px;
+    background-image: url("https://preview.colorlib.com/theme/glint/images/email-icon.png.webp");
+}
+h5{
+    color: white;
+}
+
+.d{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #ffffff4d;
+}
+.card-text{
+    color: #ffffff4d;
+    line-height: 1.9rem;
+}
+.emailsubscr{
+    height: 54px;
+    padding: 0px;
+    margin: 0px;
+    width: 435px;
+}
+.colorlib{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.colorlib:hover{
+    color: #39b54a;
+    transition: 0.3s;
+}
+.ptext{
+    height: 150px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:1000px) {
+    .footercontent{
+        
+        width: 90%;
+
+    }
+    .footercard{
+        width: 100%;
+    }
+    .emailsubscr{
+        width: 100%;
+    }
+    .email{
+        width: 50%;
+    }
+}
+@media screen and (max-width:600px) {
+
+    .email{
+        width: 100%;
+        background-image: none;
+        text-align: center;
+        padding: 0;
+    }
+
+    .btx{
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0;
+        
+    }
+}

@@ -1,0 +1,179 @@
+.wee{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image:    linear-gradient(
+        rgba(0, 0, 0, 0.75), 
+        rgba(0, 0, 0, 0.75)
+      ), url("https://preview.colorlib.com/theme/glint/images/hero-bg.jpg.webp");
+}
+
+.welcome-content{
+    width: 100%;
+
+    padding-left: 100px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding-bottom: 150px;
+    
+}
+.welcomelements{
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    padding: 240px 0px 0px;
+    justify-content: space-between;
+
+}
+
+.welcometexts h1{
+    font-size: 4.5rem;
+    line-height: 1.3;
+    color: white;
+    font-weight: 700;
+    width: 800px;
+    letter-spacing: -.1rem;
+    
+}
+.buttons{
+    margin-top: 40px;
+}
+.mybtn{
+    width:215px;
+    border: 2px solid white !important;
+    height: 54px;
+    color: white;
+    margin: 15px;
+    border-radius: 0% !important;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08rem;
+    
+}
+.mybtn:hover{
+    background-color: lightgray;
+    color: black;
+    transition: 0.6s;
+    
+}
+.icon{
+    margin-left: 45px;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 33px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.socialmedia{
+    width: 150px;
+}
+.socmedia{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+    
+   
+}
+span{
+    color: green;
+    width: 20%;
+    font-size: 0px;
+   transition: font-size 0.5s;
+    
+}
+.socmedia:hover span{
+    font-size: 16px;
+    
+    
+    
+}
+p{
+    color: gray;
+    letter-spacing: 0.2cm;
+}
+.scroldown{
+    width: 200px;
+    
+    height: 100px;
+    margin-right: 45px;
+    bottom: -195px;
+    font-size: 15px;
+    display: flex;
+    border-right: 2px solid #39b54a;
+}
+.scrll{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.scr{
+    color: white;
+    font-size: 13px;
+    margin-left: 15px;
+    cursor: pointer;
+    letter-spacing: 0.3rem !important;
+}
+@media screen and (max-width:1100px) {
+.welcometexts h1{
+    width: auto;
+    font-size: 4rem;
+}
+    
+}
+@media screen and (max-width:800px) {
+.welcometexts h1{
+    width: auto;
+    font-size: 3.5rem;
+}
+    
+}
+@media screen and (max-width:700px) {
+.welcometexts h1{
+    width: auto;
+    font-size: 2.5rem;
+    
+}
+.icon{
+    border: none;
+}
+.welcome-content{
+    padding-left: 50px;
+}
+    
+}
+@media screen and (max-width:500px) {
+    .welcometexts h1{
+        width: auto;
+        font-size: 2rem;
+        text-align: center;
+        
+    }
+    p{
+        text-align: center;
+    }
+    .mybtn{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .socialmedia{
+        display: none;
+    }
+    .scroldown{
+        width: 150px;
+    }
+    .scr{
+        font-size: 13px;
+    }
+}

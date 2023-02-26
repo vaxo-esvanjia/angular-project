@@ -1,0 +1,32 @@
+.recentworksmother{
+    width: 100% ;
+    height: 636px ;
+    background-color: black;
+    text-align: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.recentworksmother span {
+    margin-top: 10px;
+    color: #39b54a;
+    font-size: 1rem;
+    font-weight: 700;
+}
+h1{
+    color: white;
+    font-weight: 500;
+    width: 60%;
+    font-size: 4rem;
+    margin: auto;
+    margin-top: 30px;
+    border-bottom: 1px solid white;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:1000px) {
+    h1{
+        font-size: 40px;
+        width: 95%;
+
+    }
+}
